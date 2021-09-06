@@ -1,7 +1,4 @@
 @media screen and (min-width:576px) {
-    .search {
-        width: 100%;
-    }
     .grid-sm-1{
         flex: 0 0 8.3333333333%;
         max-width: 8.3333333333%;    
@@ -225,11 +222,8 @@
     header{
         display: block !important;
     }
-    .search {
-        width: 100% !important;
-    }
     .form-search {
-        margin: 2em 0 !important;
+        margin: 0 !important;
     }
     .grid-1{
         flex: 0 0 8.3333333333%;
