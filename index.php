@@ -15,12 +15,6 @@ require 'include_php/config.php';
         <?php include('include_php/custom-shape-divider.php'); ?>
         <div class="banner">
             <div class="banner-containor">
-                
-<?php
-echo $_SERVER['REQUEST_URI'];
-print_r($_SERVER);
-?>
-
                 <h1>Lorem ipsum</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus modi voluptatibus porro similique enim, qui perspiciatis accusantium harum, dolorem id laboriosam. At cumque harum ipsa et nostrum, libero veniam vel.</p>
             </div>
@@ -39,7 +33,7 @@ print_r($_SERVER);
         </div>
     </section>
     
-    <section class="features-product">
+    <section class="features-product">       
         <div class="split">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M600,16.8c0-8.11-8.88-13.2-19.92-13.2H0V120H1200V3.6H619.92C608.88,3.6,600,8.66,600,16.8Z" class="shape-fill"></path>
@@ -57,7 +51,7 @@ print_r($_SERVER);
                     <div class="thumbnail-container product-inner">
                         <div class="product-image">
                             <a href="product-1" class="thumbnail product-thumbnail">
-                                <img src="https://prestagold.net/claue/84-home_default/faded-short-sleeves-tshirt.jpg" alt="" data-full-size-image-url="https://prestagold.net/claue/84-large_default/faded-short-sleeves-tshirt.jpg">
+                                <img src="Image/Product/39ea3e21b6.jpg" alt="" data-full-size-image-url="Image/Product/39ea3e21b6.jpg">
                             </a>
                             <ul class="product-flags">
                                 <li class="new">New</li>
@@ -69,7 +63,7 @@ print_r($_SERVER);
                                             <i class="far fa-heart"></i>
                                         </a>
                                     </div>
-                                    <form action="https://prestagold.net/claue/en/cart" method="post">
+                                    <form action="cart.php" method="post">
                                         <div class="pg_attr_custom">
                                             <div class="product-list-variants">
                                                 <div class="product-attribute">
@@ -197,7 +191,7 @@ print_r($_SERVER);
                     <div class="thumbnail-container product-inner">
                         <div class="product-image">
                             <a href="product-1" class="thumbnail product-thumbnail">
-                                <img src="https://prestagold.net/claue/84-home_default/faded-short-sleeves-tshirt.jpg" alt="" data-full-size-image-url="https://prestagold.net/claue/84-large_default/faded-short-sleeves-tshirt.jpg">
+                                <img src="Image/Product/99ca58e781.jpg" alt="" data-full-size-image-url="Image/Product/99ca58e781.jpg">
                             </a>
                             <ul class="product-flags">
                                 <li class="new">New</li>
@@ -209,7 +203,7 @@ print_r($_SERVER);
                                             <i class="far fa-heart"></i>
                                         </a>
                                     </div>
-                                    <form action="https://prestagold.net/claue/en/cart" method="post">
+                                    <form action="cart.php" method="post">
                                         <div class="pg_attr_custom">
                                             <div class="product-list-variants">
                                                 <div class="product-attribute">
@@ -337,7 +331,7 @@ print_r($_SERVER);
                     <div class="thumbnail-container product-inner">
                         <div class="product-image">
                             <a href="product-1" class="thumbnail product-thumbnail">
-                                <img src="https://prestagold.net/claue/84-home_default/faded-short-sleeves-tshirt.jpg" alt="" data-full-size-image-url="https://prestagold.net/claue/84-large_default/faded-short-sleeves-tshirt.jpg">
+                                <img src="Image/Product/e53292d1c.jpg" alt="" data-full-size-image-url="Image/Product/e53292d1c.jpg">
                             </a>
                             <ul class="product-flags">
                                 <li class="new">New</li>
@@ -349,7 +343,7 @@ print_r($_SERVER);
                                             <i class="far fa-heart"></i>
                                         </a>
                                     </div>
-                                    <form action="https://prestagold.net/claue/en/cart" method="post">
+                                    <form action="cart.php" method="post">
                                         <div class="pg_attr_custom">
                                             <div class="product-list-variants">
                                                 <div class="product-attribute">
@@ -477,7 +471,7 @@ print_r($_SERVER);
                     <div class="thumbnail-container product-inner">
                         <div class="product-image">
                             <a href="product-1" class="thumbnail product-thumbnail">
-                                <img src="https://prestagold.net/claue/84-home_default/faded-short-sleeves-tshirt.jpg" alt="" data-full-size-image-url="https://prestagold.net/claue/84-large_default/faded-short-sleeves-tshirt.jpg">
+                                <img src="Image/Product/39ea3e21b6.jpg" alt="" data-full-size-image-url="Image/Product/39ea3e21b6.jpg">
                             </a>
                             <ul class="product-flags">
                                 <li class="new">New</li>

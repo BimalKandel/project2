@@ -4,7 +4,7 @@
     </div>
     <div class="menu">
         <div class="search">
-            <form class="form-search" action="search.html" method="get"><input type="text" name="" id=""><button type="submit"><i class="fa fa-search"></i></button></form>
+            <form class="form-search" action="search" method="get"><input type="text" name="" id=""><button type="submit"><i class="fa fa-search"></i></button></form>
         </div>
         <nav>
             <div class="menu-icon show-mobile-view">

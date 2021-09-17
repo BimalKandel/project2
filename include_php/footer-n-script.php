@@ -29,8 +29,8 @@
                     <hr/>
                     <ul>
                         <li><a href="faq">FAQ</a></li>
-                        <li><a href="terms">Terms and Conditions</a></li>
-                        <li><a href="policies">Policies</a></li>
+                        <li><a href="terms-and-conditions">Terms and Conditions</a></li>
+                        <li><a href="legal-notice">Legal Notice</a></li>
                     </ul>
                 </div>
                 <div class="newletter">
@@ -38,7 +38,7 @@
                         <p>NewsLetter</p>
                         <hr/>
                         <input type="text" name="email" placeholder="Enter your Email">
-                        <input type="submit" value="Subscribe" />
+                        <input type="submit" class="bg-primiary" value="Subscribe" />
                     </form>
                 </div>
             </div>    
