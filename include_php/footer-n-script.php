@@ -28,7 +28,6 @@
                     <p>Help</p>
                     <hr/>
                     <ul>
-                        <li><a href="faq">FAQ</a></li>
                         <li><a href="terms-and-conditions">Terms and Conditions</a></li>
                         <li><a href="legal-notice">Legal Notice</a></li>
                     </ul>

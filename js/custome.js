@@ -45,5 +45,50 @@ $('#filecustom').change(function(e){
   $('.file-name').text(fileNameAndSize);
 });
 
+function updateCart(){
+  $.ajax({  
+    type:"POST",  
+    url:"include_php/ajaxpage.php",  
+    data:"numberofcontent=true",  
+    success:function(data){  
+      $('.cart-number').text(data);
+   }  
+ }); 
+}
+
+$(document).ready(function(){
+  updateCart();
+  setInterval(updateCart, 1000);
+});
 
 
+$('form.addingtoCart').submit(function(e){
+  e.preventDefault();
+  $data = $(this).serialize();
+  console.log($data);
+  $.ajax({
+    url: "include_php/ajaxpage.php",
+    type: 'post',
+    data: $data,
+    success: function(data) {
+      console.log(data);
+    }
+  });
+});
+
+$('.paybtn').click(function(){
+  $.ajax({
+    url: "include_php/ajaxpage.php",
+    type: 'post',
+    data: 'paynow=true',
+    success: function(data) {
+      if(data == 'okay'){
+        window.location.href = 'sucess';
+      }
+      else{
+        $('.error').text('Some error with pay. Please try again');
+        $('.error').show();
+      }
+    }
+  });
+})

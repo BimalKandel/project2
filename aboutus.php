@@ -1,5 +1,5 @@
 <?php
-require 'include_php/config.php'; 
+require 'include_php/configwithcookies.php'; 
 $page = "About Us";
 ?>
 <!DOCTYPE html>

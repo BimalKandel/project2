@@ -1355,6 +1355,21 @@ footer {
   display: none;
 }
 
+.img-w-100 {
+  width: 100%;
+}
+
+.btn-lg {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0.8em 0.9em;
+}
+
+.bold {
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1469px) {
   .search {
     width: 50%;

@@ -1096,6 +1096,16 @@ footer{
 .d-sm-block{
     display: none;
 }
+.img-w-100 {
+    width: 100%;
+}
+.btn-lg{
+    width: max-content;
+    padding: 0.8em 0.9em;
+}
+.bold{
+    font-weight: 600;
+}
 @import url('default_margin_padding.css');
 
 @media screen and (max-width:1469px){
